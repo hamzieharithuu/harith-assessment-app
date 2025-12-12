@@ -26,7 +26,7 @@ cd harith-assessment-app
 ```bash
 composer install
 ```
-3. Create a .env file (you can copy from .env.example) and set up your database credentials.
+3. Create a .env file (you can copy from .env.example).
 Generate application key:
 ```bash
 php artisan key:generate
