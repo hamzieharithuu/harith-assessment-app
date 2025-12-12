@@ -26,13 +26,18 @@ cd harith-assessment-app
 ```bash
 composer install
 ```
-3. Link storage folder:
+3. Create a .env file (you can copy from .env.example) and set up your database credentials.
+Generate application key:
+```bash
+php artisan key:generate
+```
+4. Link storage folder:
 ```bash
 php artisan storage:link
 ```
-4. Start the development server:
+5. Start the development server:
 ```bash
 php artisan serve
 ```
-I already include .env, storage/app/public/logos and .sqlite file for testing (since this is dummy project & doesn't hold any sensitive data) 
+I already include storage/app/public/logos and .sqlite file for testing (since this is a dummy project & doesn't hold any live production sensitive data) 
 Thank you.
